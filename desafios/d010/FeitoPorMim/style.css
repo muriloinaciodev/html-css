@@ -1,0 +1,148 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'FonteDroid';
+    src: url(fontes/idroid.otf);
+}
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: #84e1ad;
+}
+
+header {
+    padding: 10px 10px 10px 10px;
+    height: 150px;
+    background-image: linear-gradient(to bottom, #2ca362, #073119);
+}
+
+header > h1, header > p {
+    color: white;
+    text-align: center;
+}
+
+nav {
+    margin-top: 30px;
+}
+
+nav > ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav > ul > li {
+    display: inline-block;
+    margin-right:15px;
+    vertical-align: bottom;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+nav > ul > li:hover {
+    background-color: #2ca362;
+    color: #073119;
+}
+
+main {
+    background-color: white;
+    margin: 0px 130px 0px 130px;
+    padding: 1em;
+}
+
+main > h2 {
+    margin: 0px;
+    color: #0b4b27;
+    font-family: 'FonteDroid';
+}
+
+main > h3 {
+    font-family: 'FonteDroid';
+    color: #0b4b27;
+    background-image: linear-gradient(to right, #81e0ae 50%, white);
+}
+
+main > p {
+    text-indent: 2em;
+}
+
+footer {
+    background-color: #073119;
+    color: white;
+    padding: 8px;
+    text-align: center;
+}
+
+footer > p {
+    margin: 0px;
+}
+
+footer > p > span.destaque {
+    font-weight: bold;
+}
+
+a {
+    color: #073119;
+    background-color: #81e0ae;
+    text-decoration: none;
+    padding: 2px;
+}
+
+a::after {
+    content: ' 📎';
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+img#bugdroid {
+    display: block;
+    width: 50%;
+    margin: auto;
+}
+
+iframe#videoyt {
+    display: block;
+    width: 100%;
+    height: auto;
+    min-height: 361px;
+
+    max-width: 642px;
+    margin: auto;
+    
+}
+div#video {
+    background-color: #073119;
+    outline-style: solid;
+    outline-color: #073119;
+    outline-width: 1em;
+}
+div#saberMais > h4 {
+    background-color: #2fa866;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+}
+
+div#saberMais {
+    background-color: #c5ebd6;
+    border-radius: 10px 10px 0px 0px;
+    text-indent: 2em;
+}
+
+div#saberMais > ul {
+    display: inline-block;
+    margin-right: 200px;
+}
+
+div#saberMais > ul > li::before{
+    content: '✓ ';
+    font-weight: bold;
+}
